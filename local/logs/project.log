@@ -1,0 +1,238 @@
+2019-03-28T03:53:40.322Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-28T03:53:41.501Z - normal: Initializing Asset Database
+2019-03-28T03:53:41.504Z - normal: checking language setting...
+2019-03-28T03:53:41.504Z - normal: Language: zh
+2019-03-28T03:53:42.320Z - success: preview server running at http://localhost:7456
+2019-03-28T03:53:42.323Z - success: protocol editor-framework registered
+2019-03-28T03:53:42.323Z - success: protocol app registered
+2019-03-28T03:53:42.323Z - success: protocol theme registered
+2019-03-28T03:53:42.323Z - success: protocol packages registered
+2019-03-28T03:53:42.323Z - success: protocol uuid registerred
+2019-03-28T03:53:42.323Z - success: protocol db registerred
+2019-03-28T03:53:42.324Z - success: protocol thumbnail registerred
+2019-03-28T03:53:42.324Z - success: protocol unpack registerred
+2019-03-28T03:53:42.324Z - success: protocol disable-commonjs registerred
+2019-03-28T03:53:42.514Z - normal: connected!
+2019-03-28T03:53:42.517Z - normal: Check project E:\CocosWorkspace\Gomoku
+2019-03-28T03:53:42.520Z - normal: Initializing project E:\CocosWorkspace\Gomoku
+2019-03-28T03:53:43.027Z - normal: Initializing Cocos2d
+2019-03-28T03:53:43.983Z - normal: Initializing engine extends
+2019-03-28T03:53:44.007Z - success: asset-db-debugger loaded
+2019-03-28T03:53:44.008Z - success: baidu-adapter loaded
+2019-03-28T03:53:44.009Z - success: code-editor loaded
+2019-03-28T03:53:44.010Z - success: color-picker loaded
+2019-03-28T03:53:44.121Z - success: fb-audience-network loaded
+2019-03-28T03:53:44.187Z - success: fb-live-stream loaded
+2019-03-28T03:53:44.191Z - success: google-play-instant loaded
+2019-03-28T03:53:44.196Z - success: huawei-runtime loaded
+2019-03-28T03:53:44.197Z - success: jsb-adapter loaded
+2019-03-28T03:53:44.217Z - success: oppo-runtime loaded
+2019-03-28T03:53:44.220Z - success: package-manager loaded
+2019-03-28T03:53:44.369Z - success: qqplay-adapter loaded
+2019-03-28T03:53:44.371Z - success: runtime-dev-tools loaded
+2019-03-28T03:53:44.375Z - success: sdkbox loaded
+2019-03-28T03:53:44.393Z - success: tester loaded
+2019-03-28T03:53:44.395Z - success: ui-grid loaded
+2019-03-28T03:53:44.397Z - success: ui-kit-preview-extra loaded
+2019-03-28T03:53:44.399Z - success: ui-kit-preview loaded
+2019-03-28T03:53:44.401Z - success: ui-kit loaded
+2019-03-28T03:53:44.403Z - success: ui-tree loaded
+2019-03-28T03:53:44.408Z - success: vivo-runtime loaded
+2019-03-28T03:53:44.408Z - success: weapp-adapter loaded
+2019-03-28T03:53:44.453Z - success: assets loaded
+2019-03-28T03:53:44.456Z - success: builder loaded
+2019-03-28T03:53:44.789Z - success: cocos-services loaded
+2019-03-28T03:53:44.792Z - success: console loaded
+2019-03-28T03:53:44.838Z - success: fb-instant-games loaded
+2019-03-28T03:53:44.840Z - success: google-instant-games loaded
+2019-03-28T03:53:44.844Z - success: hierarchy loaded
+2019-03-28T03:53:44.847Z - success: inspector loaded
+2019-03-28T03:53:44.849Z - success: keystore loaded
+2019-03-28T03:53:44.853Z - success: node-library loaded
+2019-03-28T03:53:44.854Z - success: package-asset loaded
+2019-03-28T03:53:44.856Z - success: preferences loaded
+2019-03-28T03:53:44.857Z - success: project-exporter loaded
+2019-03-28T03:53:44.859Z - success: project-importer loaded
+2019-03-28T03:53:44.860Z - success: project-settings loaded
+2019-03-28T03:53:44.864Z - success: scene loaded
+2019-03-28T03:53:44.866Z - success: simulator-debugger loaded
+2019-03-28T03:53:44.868Z - success: sprite-editor loaded
+2019-03-28T03:53:44.873Z - success: store loaded
+2019-03-28T03:53:44.877Z - success: timeline loaded
+2019-03-28T03:53:46.562Z - normal: Loading packages
+2019-03-28T03:53:46.570Z - normal: Watching packages
+2019-03-28T03:53:47.071Z - info: Cocos Services load base data!
+2019-03-28T03:53:47.157Z - normal: Run Application
+2019-03-28T06:06:14.484Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:13:45.334Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\Gumoku.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/Gumoku.js: Unexpected token (23:18)
+  21 |             type:[cc.node]
+  22 |         },
+> 23 |         gameState = "white"
+     |                   ^
+  24 |     },
+  25 |     initiateChessBoard(){
+  26 |         for(var x = 0 ;x < 15; x++){
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T06:19:07.291Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\Gumoku.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/Gumoku.js: Unexpected token (23:18)
+  21 |             type:[cc.node]
+  22 |         },
+> 23 |         gameState = "white"
+     |                   ^
+  24 |     },
+  25 |     initiateChessBoard(){
+  26 |         for(var x = 0 ;x < 15; x++){
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T06:20:46.075Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\Gumoku.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/Gumoku.js: Unexpected token (23:18)
+  21 |             type:[cc.node]
+  22 |         },
+> 23 |         gameState = "white"
+     |                   ^
+  24 |     },
+  25 |     initiateChessBoard(){
+  26 |         for(var x = 0 ;x < 15; x++){
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T06:23:03.196Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\Gumoku.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/Gumoku.js: Unexpected token (23:18)
+  21 |             type:[cc.node]
+  22 |         },
+> 23 |         gameState = "white"
+     |                   ^
+  24 |     },
+  25 |     initiateChessBoard(){
+  26 |         for(var x = 0 ;x < 15; x++){
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T06:24:47.268Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\Gumoku.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/Gumoku.js: Unexpected token (23:18)
+  21 |             type:[cc.node]
+  22 |         },
+> 23 |         gameState = "white"
+     |                   ^
+  24 |     },
+  25 |     initiateChessBoard(){
+  26 |         for(var x = 0 ;x < 15; x++){
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T06:25:47.637Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:28:06.336Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:29:03.992Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:30:04.443Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:30:48.459Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:39:48.763Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:39:48.810Z - warn: The Asset used by component "Gumoku" is missing. Detailed information:
+Node path: "Canvas/chessboard"
+Missing uuid: "1668055e-614c-48c3-90a3-326a5bcbc2e9"
+
+2019-03-28T06:39:48.826Z - warn: The Asset used by component "Gumoku" is missing. Detailed information:
+Node path: "Canvas"
+Missing uuid: "1668055e-614c-48c3-90a3-326a5bcbc2e9"
+
+2019-03-28T06:39:48.827Z - warn: The Asset used by node "Black" is missing. Detailed information:
+Node path: "Black"
+Missing uuid: "1668055e-614c-48c3-90a3-326a5bcbc2e9"
+
+2019-03-28T06:41:59.170Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:42:31.262Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:44:56.679Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:45:30.659Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:46:13.965Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:47:02.124Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:48:05.368Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:51:16.714Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T06:53:22.762Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T07:00:07.363Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T07:57:15.761Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:04:42.698Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:04:42.737Z - warn: The Asset used by component "Gumoku" is missing. Detailed information:
+Node path: "Canvas/chessboard"
+Missing uuid: "d09194d9-2d71-43bc-904c-4ee058de195c"
+
+2019-03-28T08:04:42.752Z - warn: The Asset used by node "Black" is missing. Detailed information:
+Node path: "Black"
+Missing uuid: "d09194d9-2d71-43bc-904c-4ee058de195c"
+
+2019-03-28T08:04:42.754Z - warn: The Asset used by node "Black" is missing. Detailed information:
+Node path: "Black"
+Missing uuid: "d09194d9-2d71-43bc-904c-4ee058de195c"
+
+2019-03-28T08:04:45.161Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:08:18.371Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosWorkspace\Gomoku\assets\scripts\chess.js, message: Compile error: SyntaxError: E:/CocosWorkspace/Gomoku/assets/scripts/chess.js: Unexpected token (15:11)
+  13 | 
+  14 |     properties: {
+> 15 |         tag=0
+     |            ^
+  16 |     },
+  17 | 
+  18 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\Program Files\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2019-03-28T08:09:16.307Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:09:49.767Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:15:34.112Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:15:34.169Z - warn: The Asset used by node "chess" is missing. Detailed information:
+Node path: "chess"
+Missing uuid: "25b87309-987f-4661-b090-7c1d94fcfc95"
+
+2019-03-28T08:17:00.508Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:17:54.345Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:18:33.553Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:19:26.862Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:20:28.859Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:21:37.074Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:24:44.723Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:26:42.775Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:27:47.065Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:30:48.474Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:32:27.634Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T08:34:18.720Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T09:57:41.940Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
+2019-03-28T10:00:25.347Z - warn: The 'type' attribute of 'Gumoku.chessList' is undefined when loading script
