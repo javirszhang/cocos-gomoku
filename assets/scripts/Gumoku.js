@@ -86,7 +86,6 @@ cc.Class({
                 // this.chessList[y*15+i].getComponent(cc.Sprite).spriteFrame = this.whiteChessFrame;
                 
                 var frame = this.chessList[y*15+i].getComponent(cc.Sprite).spriteFrame;
-                console.log(i+" horizental.equals = "+(frame == lastSpriteFrame),"lastSprite",lastSpriteFrame,"current",frame);
                 if(lastSpriteFrame == frame){
                     horizental++;//连子数量
                     console.log(currentPlayer + '横向连子数量:'+horizental);
