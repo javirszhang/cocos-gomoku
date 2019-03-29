@@ -288,5 +288,10 @@
     "asset": 1553854028802,
     "meta": 1553854058611,
     "relativePath": "scripts\\Gumoku.js"
+  },
+  "0412bd17-35d9-490a-8269-bb3b716c48ac": {
+    "asset": 1553854206191,
+    "meta": 1553854206198,
+    "relativePath": "gomoku.fire"
   }
 }
